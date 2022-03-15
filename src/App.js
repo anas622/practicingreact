@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from "./components/layout/Navigation";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Navigation/>
+
+      //fetch movie information to the front page
+
+      //style the fetched information to the front page
+
+      //add a CRUD page as a second page
+
+      //use firebase as a database
+
+      //change the homepage to fetch information from the database instead
+
+      //styled the information fetched from the database
+
+      //add a contact us page
+
+      //add a form for the users
   );
 }
 
